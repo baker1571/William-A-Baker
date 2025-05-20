@@ -138,3 +138,39 @@ footer {
     border-radius: 5px;
     padding: 20px;
   }
+
+  @keyframes transitionIn {
+    from {
+        opacity: 0;
+        transform: translate(0px, 10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translate(0px, 0px);
+    }
+  }
+
+  @keyframes backgroundImageIn {
+    from {
+        opacity: 0;
+        /* transform: translate(-45px, 10px); */
+        transform: rotate(-45deg);
+    }
+
+    to {
+        opacity: 1;
+        /* transform: translate(0px, 0px); */
+        transform: rotate(0deg);
+    }
+  }
+
+  @keyframes backgroundImageRotate {
+    from {
+        transform: rotate(-360deg);
+    }
+
+    to {
+        transform: rotate(0deg);
+    }
+  }
