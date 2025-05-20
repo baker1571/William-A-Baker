@@ -118,22 +118,22 @@ body {
 }
 
 .bg-img {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  background-image: url("../img/icon3.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  z-index: -1;
-  animation: backgroundImageIn 1s ease-out, backgroundImageRotate 600s linear infinite;
-}
+    position: absolute;
+    left: 35%;
+    width: 800px;
+    height: 800px;
+    background-image: url("../img/icon3.png"); 
+    background-size: 100%;
+    background-repeat: no-repeat;
+    animation: backgroundImageIn, backgroundImageRotate;
+    animation-duration: 1s, 600s;
+    animation-delay: 0s, 1s;
+    animation-timing-function: ease-out;
+  }
 
 /*
 .bg-img {
-  position: absolute;
+  position: fixed;
   left: 35%;
   width: 800px;
   height: 800px;
@@ -142,7 +142,6 @@ body {
   background-repeat: no-repeat;
   animation: backgroundImageIn 1s ease-out, backgroundImageRotate 600s ease-out;
   z-index: -1;
-
   */
 
   @media screen and (max-width: 768px) {
