@@ -103,7 +103,6 @@ a:hover {
   z-index: -1;
 }
 
-/* Make main section responsive */
 main {
   max-width: 800px;
   margin: 2rem auto;
