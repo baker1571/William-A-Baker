@@ -118,6 +118,21 @@ body {
 }
 
 .bg-img {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../img/icon3.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: -1;
+  animation: backgroundImageIn 1s ease-out, backgroundImageRotate 600s linear infinite;
+}
+
+/*
+.bg-img {
   position: absolute;
   left: 35%;
   width: 800px;
@@ -127,6 +142,8 @@ body {
   background-repeat: no-repeat;
   animation: backgroundImageIn 1s ease-out, backgroundImageRotate 600s ease-out;
   z-index: -1;
+
+  */
 
   @media screen and (max-width: 768px) {
     width: 400px;
