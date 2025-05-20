@@ -118,9 +118,8 @@ h1 {
   margin-bottom: 1rem;
 }
 
-/* Responsive footer */
 footer {
-  text-align: center;
+  text-align: left;
   padding: 1.5rem 1rem;
   font-family: "Monaco", monospace;
   font-size: 1rem;
