@@ -117,6 +117,7 @@ body {
   font-family: "Monaco", monospace;
 }
 
+/*
 .bg-img {
     position: absolute;
     left: 35%;
@@ -130,8 +131,9 @@ body {
     animation-delay: 0s, 1s;
     animation-timing-function: ease-out;
   }
+*/
 
-/*
+
 .bg-img {
   position: fixed;
   left: 35%;
@@ -142,7 +144,7 @@ body {
   background-repeat: no-repeat;
   animation: backgroundImageIn 1s ease-out, backgroundImageRotate 600s ease-out;
   z-index: -1;
-  */
+  
 
   @media screen and (max-width: 768px) {
     width: 400px;
